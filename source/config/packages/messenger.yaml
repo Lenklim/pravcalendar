@@ -1,0 +1,20 @@
+framework:
+    messenger:
+        default_bus: command.bus
+        buses:
+            command.bus:
+                default_middleware: allow_no_handlers
+#            query.bus: ~
+#            event.bus: ~
+
+
+        transports:
+            async: '%env(resolve:MESSENGER_TRANSPORT_DSN)%'
+            sync: 'sync://'
+            failed_async: 'doctrine://default?queue_name=async'
+        failure_transport: failed_async
+
+
+
+
+

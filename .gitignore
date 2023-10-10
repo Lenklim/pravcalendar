@@ -1,0 +1,6 @@
+/.idea/
+.env
+.env.local
+/docker/data/
+/docker/from-alex/data/
+/tmp/

@@ -1,0 +1,261 @@
+App\Entity\City:
+    attributes:
+        id:
+            groups: ['city-detail', 'cities-list', 'subresource-cities-list', 'subresource-city-detail']
+        name:
+            groups: ['city-detail', 'cities-list', 'subresource-cities-list', 'subresource-city-detail', 'subresource-city-name']
+        regionName:
+            groups: ['city-detail', 'cities-list', 'subresource-cities-list', 'subresource-city-detail', 'subresource-city-name']
+        sort:
+            groups: ['city-detail', 'cities-list', 'subresource-cities-list', 'subresource-city-detail']
+        vacancies:
+            groups: ['subresource-vacancies-list', 'subresource-vacancy-detail']
+
+
+
+App\Entity\Vacancy:
+    attributes:
+        id:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        name:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        description:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        slug:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        subtitle:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        price:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        fixprice:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        remoteWork:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        seoTitle:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        seoKeywords:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        seoDescription:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        directions:
+            groups: ['subresource-directions-list', 'subresource-direction-detail']
+        cities:
+           groups: ['subresource-cities-list', 'subresource-city-detail', 'subresource-city-name']
+        requirements:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        tasks:
+            groups: ['vacancy-detail', 'vacancies-list', 'subresource-vacancies-list', 'subresource-vacancy-detail']
+        privileges:
+            groups: ['subresource-privileges-list', 'subresource-privilege-detail']
+
+
+
+App\Entity\Direction:
+    attributes:
+        id:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        name:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        description:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        slug:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        icon:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        sort:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        vacancies:
+            groups: [ 'subresource-vacancies-list', 'subresource-vacancy-detail' ]
+        feature1Name:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature1Desc:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature1Image:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature2Name:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature2Desc:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature2Image:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature3Name:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature3Desc:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature3Image:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature4Name:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature4Desc:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature4Image:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature5Name:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature5Desc:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature5Image:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature6Name:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature6Desc:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature6Image:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature7Name:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature7Desc:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature7Image:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature8Name:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature8Desc:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        feature8Image:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        stepOne:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        stepTwo:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        stepThree:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        subTitle1:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        subImage1:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        subDesc1:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        subTitle2:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        subImage2:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+        subDesc2:
+            groups: ['direction-detail', 'directions-list', 'subresource-directions-list', 'subresource-direction-detail']
+
+
+
+
+
+App\Entity\Privilege:
+    attributes:
+        id:
+            groups: ['subresource-privileges-list', 'subresource-privilege-detail']
+        name:
+            groups: ['subresource-privileges-list', 'subresource-privilege-detail']
+        image:
+            groups: ['subresource-privileges-list', 'subresource-privilege-detail']
+
+
+App\Entity\HomePage:
+    attributes:
+        titlePage:
+            groups: ['HomePage-show']
+        titleDirections:
+            groups: ['HomePage-show']
+        titlePrivileges:
+            groups: ['HomePage-show']
+        titleAbout:
+            groups: [ 'HomePage-show' ]
+        fullText:
+            groups: [ 'HomePage-show' ]
+        titleCarrerMedia:
+            groups: ['HomePage-show']
+        titleEmployee:
+            groups: ['HomePage-show']
+        titlePartners:
+            groups: ['HomePage-show']
+        seoTitle:
+            groups: ['HomePage-show']
+        seoKeywords:
+            groups: ['HomePage-show']
+        seoDescription:
+            groups: ['HomePage-show']
+        bannerMain:
+            groups: ['bannerMain-list']
+        bannerDirection:
+            groups: ['bannerDirection-list']
+        bannerPrivilege:
+            groups: ['bannerPrivilege-list']
+        bannerPartner:
+            groups: ['bannerPartner-list']
+        bannerEmployee:
+            groups: ['bannerEmployee-list']
+        headerFooter:
+            groups: ['headerFooter-list']
+
+
+App\Entity\BannerDirection:
+    attributes:
+        id:
+            groups: ['bannerDirection-list']
+        name:
+            groups: ['bannerDirection-list']
+        link:
+            groups: ['bannerDirection-list']
+        image:
+            groups: ['bannerDirection-list']
+        sort:
+            groups: ['bannerDirection-list']
+        counterDirection:
+            groups: ['bannerDirection-list']
+        termin:
+            groups: ['bannerDirection-list']
+        directionDescShort:
+            groups: ['bannerDirection-list']
+
+
+
+App\Entity\BannerMain:
+    attributes:
+        id:
+            groups: ['bannerMain-list']
+        name:
+            groups: ['bannerMain-list']
+        image:
+            groups: ['bannerMain-list']
+        sort:
+            groups: ['bannerPrivilege-list']
+
+App\Entity\BannerPrivilege:
+    attributes:
+        id:
+            groups: ['bannerPrivilege-list']
+        name:
+            groups: ['bannerPrivilege-list']
+        image:
+            groups: ['bannerPrivilege-list']
+        sort:
+            groups: ['bannerPrivilege-list']
+        shortText:
+            groups: ['bannerPrivilege-list']
+
+
+App\Entity\Page:
+    attributes:
+        id:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail', 'subresource-recommended-page']
+        title:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail', 'subresource-recommended-page-relation']
+        slug:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail', 'subresource-recommended-page-relation']
+        image:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail']
+        thumbnail:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail']
+        page:
+            groups: ['subresource-recommended-page']
+        relation:
+            groups: ['subresource-recommended-page-relation']
+        seoDescription:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail']
+        seoKeywords:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail']
+        imageSeoDescription:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail']
+        shortText:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail']
+        fullText:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail']
+        seoTitle:
+            groups: ['page-detail', 'pages-list', 'subresource-pages-list', 'subresource-page-detail']

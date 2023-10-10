@@ -1,0 +1,8 @@
+api_platform:
+    resource: .
+    type: api_platform
+    prefix: /api
+
+
+#_liip_imagine:
+#    resource: '@LiipImagineBundle/Resources/config/routing.yaml'
