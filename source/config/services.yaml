@@ -20,10 +20,6 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
-    App\Service\ExternalApiService:
-        arguments:
-            $externalApiHost: '%env(EXTERNAL_API_HOST)%'
-            $externalApiToken: '%env(EXTERNAL_API_TOKEN)%'
 
 
     App\EventListener\CandidateChangedNotifier:
